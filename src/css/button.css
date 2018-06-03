@@ -1,0 +1,42 @@
+.button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  max-width: 300px;
+  width: 100%;
+  cursor: pointer;
+  color: #5a5a5a;
+  background-color: #fff; }
+
+.confirm {
+  composes: button;
+  background-color: #54cc89;
+  color: #fff; }
+
+.neutral {
+  composes: button;
+  background-color: #fac360;
+  color: white; }
+
+.reject {
+  composes: button;
+  background-color: #c64040;
+  color: #fff; }
+
+.facebook {
+  composes: button;
+  background-color: #3b5998;
+  color: #fff; }
+
+.google {
+  composes: button;
+  background-color: #db3236;
+  color: #fff; }
+
+.text {
+  composes: button;
+  background-color: transparent;
+  color: gray; }
