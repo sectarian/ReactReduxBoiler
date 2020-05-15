@@ -1,6 +1,6 @@
 # ReactReduxBoiler
 
-Boilerplate for React with Redux, with thunk and redux promise middleware.
+Boilerplate for React with Redux, with thunk, redux promise middleware and Firebase Auth Login.
 
 Requirements
 
@@ -11,6 +11,7 @@ Installation:
 * Clone repository
 * Navigate to directory in terminal
 * Run 'npm install' to install dependencies
+* Add Firebase Authentication details to src/base.js
 
 Distribution
 
